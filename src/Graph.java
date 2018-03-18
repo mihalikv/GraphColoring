@@ -209,7 +209,7 @@ class Graph
         long startTime = System.nanoTime();
 
         Graph g1;
-        g1 = new Graph("grafy/matrix5000.txt", false);
+        g1 = new Graph("graf.txt", true);
         g1.greedyColoring();
         long endTime = System.nanoTime();
         long duration = (endTime - startTime);
